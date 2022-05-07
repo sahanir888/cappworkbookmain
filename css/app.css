@@ -4,15 +4,19 @@
  * Copyright 2021 AdminKit
  * Licensed under MIT (https://github.com/adminkit/adminkit/blob/master/LICENSE)
  */
- .content a{
+ #a1{
      margin-top: 30px;
-     display: block;
      font-weight: bold;
      font-size: 20px;
- }
- .content a:hover{
-     background-color:#fcc44c;
- }
+     color: #0b0b0b;
+     animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		
+		50%		{ background-color: #ef0a1a;}
+	}
+ 
+ 
 :root {
     --bs-blue: #3b7ddd;
     --bs-indigo: #0a0a0a;
