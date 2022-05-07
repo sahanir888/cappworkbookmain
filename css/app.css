@@ -6,6 +6,7 @@
  */
  .content a{
      margin-top: 10px;
+     display: block;
  }
 :root {
     --bs-blue: #3b7ddd;
