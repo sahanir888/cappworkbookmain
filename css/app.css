@@ -7,6 +7,8 @@
  .content a{
      margin-top: 30px;
      display: block;
+     font-weight: bold;
+     font-size: 20px;
  }
  .content a:hover{
      background-color:#fcc44c;
