@@ -4,6 +4,12 @@
  * Copyright 2021 AdminKit
  * Licensed under MIT (https://github.com/adminkit/adminkit/blob/master/LICENSE)
  */
+ .note
+ {
+    color: blue;
+    font-size: 30;
+     
+ }
  .content p{
      margin-top: 30px;
  }
