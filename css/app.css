@@ -33,6 +33,21 @@
                 }
 	}
 
+#a2{
+    
+    animation: blinkingBackground 2s infinite;
+    
+    
+    }
+    @keyframes blinkingBackground{
+        
+        50%		{ 
+                    background-color: #fb737c; 
+                    border: 2px solid #fb737c;
+                    
+                }
+    }
+
 
  
  
