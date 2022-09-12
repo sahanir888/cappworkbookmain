@@ -60,11 +60,11 @@
 
 #a3{
 
-    animation: blinkingBackground 2s infinite;
+    animation: blinkingBackground2 2s infinite;
     
     
     }
-    @keyframes blinkingBackground{
+    @keyframes blinkingBackground2{
         
         50%		{ 
                     background-color: #e0ff7b; 
