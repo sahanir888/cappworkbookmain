@@ -1,440 +1,1284 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
-	<meta name="author" content="AdminKit">
-	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        ol {
+            margin: 0;
+            padding: 0
+        }
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+        table td,
+        table th {
+            padding: 0
+        }
 
-	<link rel="canonical" href="https://demo-basic.adminkit.io/" /> -->
+        .c1 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
 
-	<title>Computer Applications Workbook Solution - Rishikesh Sahani</title>
+        .c0 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-	<link href="css/app.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        .c3 {
+            background-color: #ffffff;
+            max-width: 517.5pt;
+            padding: 35.4pt 35.4pt 34.6pt 42.5pt
+        }
+
+        .c2 {
+            height: 11pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
 </head>
 
-<body>
-	<div class="wrapper">
-		<nav id="sidebar" class="sidebar js-sidebar">
-			<div class="sidebar-content js-simplebar">
-				<a class="sidebar-brand" href="index.html">
-          <span class="align-middle">Computer Applications Workbook</span>
-        </a>
-
-				<ul class="sidebar-nav">
-					<li class="sidebar-header" style="font-size:20px; font-weight:bold;">
-						Class 9
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="index.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Main</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-1.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 1</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-2.html">  
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 2</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-3.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 3</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-4.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 4</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-5.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 5</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-6.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 6</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-7.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 7</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-8.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 8</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-9.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 9</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class9-chapter-10.html"> 
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 10</span>
-            </a>
-					</li>
-
-					
-
-					<li class="sidebar-header" style="font-size:20px; font-weight:bold;">
-						Class 10
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="index.html">
-              <i class="align-middle" data-feather="square"></i> <span class="align-middle">Main</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-1.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 1</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-2.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 2</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-3.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 3</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-4.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 4</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-5.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 5</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-6.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 6</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item active">
-						<a class="sidebar-link" href="class10-chapter-7.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 7</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-8.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 8</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-9.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 9</span>
-            </a>
-					</li>
-
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="class10-chapter-10.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Chapter 10</span>
-            </a>
-					</li>
-
-					
-
-					
-				</ul>
-
-				
-			</div>
-		</nav>
-
-		<div class="main">
-			
-			<nav class="navbar navbar-expand navbar-light navbar-bg">
-				<a class="sidebar-toggle js-sidebar-toggle">
-					<i class="hamburger align-self-center"></i>
-				</a>
-
-				<div class="navbar-collapse collapse">
-					<ul class="navbar-nav navbar-align">
-						
-					</ul>
-				</div>
-			</nav>
-			<main class="content">
-				<div class="container-fluid p-0">
-
-					<h1 class="h3 mb-3"><strong>Chapter</strong> 7</h1>
-
-					
-
-					
-
-					
-
-				</div>
-			</main>
-
-			
-		</div>
-	</div>
-
-	<script src="js/app.js"></script>
-
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
-			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
-			gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
-			gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
-			// Line chart
-			new Chart(document.getElementById("chartjs-dashboard-line"), {
-				type: "line",
-				data: {
-					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-					datasets: [{
-						label: "Sales ($)",
-						fill: true,
-						backgroundColor: gradient,
-						borderColor: window.theme.primary,
-						data: [
-							2115,
-							1562,
-							1584,
-							1892,
-							1587,
-							1923,
-							2566,
-							2448,
-							2805,
-							3438,
-							2917,
-							3327
-						]
-					}]
-				},
-				options: {
-					maintainAspectRatio: false,
-					legend: {
-						display: false
-					},
-					tooltips: {
-						intersect: false
-					},
-					hover: {
-						intersect: true
-					},
-					plugins: {
-						filler: {
-							propagate: false
-						}
-					},
-					scales: {
-						xAxes: [{
-							reverse: true,
-							gridLines: {
-								color: "rgba(0,0,0,0.0)"
-							}
-						}],
-						yAxes: [{
-							ticks: {
-								stepSize: 1000
-							},
-							display: true,
-							borderDash: [3, 3],
-							gridLines: {
-								color: "rgba(0,0,0,0.0)"
-							}
-						}]
-					}
-				}
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			// Pie chart
-			new Chart(document.getElementById("chartjs-dashboard-pie"), {
-				type: "pie",
-				data: {
-					labels: ["Chrome", "Firefox", "IE"],
-					datasets: [{
-						data: [4306, 3801, 1689],
-						backgroundColor: [
-							window.theme.primary,
-							window.theme.warning,
-							window.theme.danger
-						],
-						borderWidth: 5
-					}]
-				},
-				options: {
-					responsive: !window.MSInputMethodContext,
-					maintainAspectRatio: false,
-					legend: {
-						display: false
-					},
-					cutoutPercentage: 75
-				}
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			// Bar chart
-			new Chart(document.getElementById("chartjs-dashboard-bar"), {
-				type: "bar",
-				data: {
-					labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-					datasets: [{
-						label: "This year",
-						backgroundColor: window.theme.primary,
-						borderColor: window.theme.primary,
-						hoverBackgroundColor: window.theme.primary,
-						hoverBorderColor: window.theme.primary,
-						data: [54, 67, 41, 55, 62, 45, 55, 73, 60, 76, 48, 79],
-						barPercentage: .75,
-						categoryPercentage: .5
-					}]
-				},
-				options: {
-					maintainAspectRatio: false,
-					legend: {
-						display: false
-					},
-					scales: {
-						yAxes: [{
-							gridLines: {
-								display: false
-							},
-							stacked: false,
-							ticks: {
-								stepSize: 20
-							}
-						}],
-						xAxes: [{
-							stacked: false,
-							gridLines: {
-								color: "transparent"
-							}
-						}]
-					}
-				}
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var markers = [{
-					coords: [31.230391, 121.473701],
-					name: "Shanghai"
-				},
-				{
-					coords: [28.704060, 77.102493],
-					name: "Delhi"
-				},
-				{
-					coords: [6.524379, 3.379206],
-					name: "Lagos"
-				},
-				{
-					coords: [35.689487, 139.691711],
-					name: "Tokyo"
-				},
-				{
-					coords: [23.129110, 113.264381],
-					name: "Guangzhou"
-				},
-				{
-					coords: [40.7127837, -74.0059413],
-					name: "New York"
-				},
-				{
-					coords: [34.052235, -118.243683],
-					name: "Los Angeles"
-				},
-				{
-					coords: [41.878113, -87.629799],
-					name: "Chicago"
-				},
-				{
-					coords: [51.507351, -0.127758],
-					name: "London"
-				},
-				{
-					coords: [40.416775, -3.703790],
-					name: "Madrid "
-				}
-			];
-			var map = new jsVectorMap({
-				map: "world",
-				selector: "#world_map",
-				zoomButtons: true,
-				markers: markers,
-				markerStyle: {
-					initial: {
-						r: 9,
-						strokeWidth: 7,
-						stokeOpacity: .4,
-						fill: window.theme.primary
-					},
-					hover: {
-						fill: window.theme.primary,
-						stroke: window.theme.primary
-					}
-				},
-				zoomOnScroll: false
-			});
-			window.addEventListener("resize", () => {
-				map.updateSize();
-			});
-		});
-	</script>
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
-			var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
-			document.getElementById("datetimepicker-dashboard").flatpickr({
-				inline: true,
-				prevArrow: "<span title=\"Previous month\">&laquo;</span>",
-				nextArrow: "<span title=\"Next month\">&raquo;</span>",
-				defaultDate: defaultDate
-			});
-		});
-	</script>
-
+<body class="c3 doc-content">
+    <p class="c0"><span class="c1">&mdash;Question 1&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0"><span class="c1">class A</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            cod[] = new int[10]; </span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            pric[]= new int[10]; //unit price</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            qty[] = new int[10];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanner
+            sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Enter
+            product code, unit price and quantity of 10 products &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;10; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;---Product
+            &quot; + (i+1) + &quot; ---&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cod[i]
+            = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pric[i]
+            = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qty[i]
+            = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Code\t\tUnit
+            Price\t\tQuantity\t\tTotal Price&quot;)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;10; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(cod[i]
+            + &quot;\t\t&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(pric[i]
+            + &quot;\t\t&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(qty[i]
+            + &quot;\t\t&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(pric[i]
+            * qty[i] + &quot;\n&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 2&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class a</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void findMarks(float M[])</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            n=M.length;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            minNo=a[0];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            maxNo=a[0];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            sum=0;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0;i&lt;n;i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum
+            += a[i]</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(a[i]
+            &gt; maxNo){</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxNo
+            = a[i];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        </span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(a[i]
+            &lt; minNo) </span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;minNo
+            = a[i];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Highest
+            No: &quot; + maxNo);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Lowest
+            No: &quot; + minNo);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Average:
+            &quot; + (sum/10));</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 3&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class A</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char
+            x1[] = {&#39;x&#39;,&#39;y&#39;,&#39;z&#39;,&#39;w&#39;};</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char
+            x2[] = {&#39;x&#39;,&#39;y&#39;,&#39;z&#39;,&#39;w&#39;};</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boolean
+            isIdentical = true;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;4; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(x1[i]
+            != x2[i])</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isIdentical
+            = false;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(isIdentical)</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Both
+            the arrays are identical&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Both
+            the arrays are not identical&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 4&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0"><span class="c1">class A</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanner
+            sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Enter
+            size of N&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            N = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            x[] = new int[N];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            y[] = new int[N];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            z[] = new int[N];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            j=0;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//get
+            input in both arrays</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;N; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x[i]
+            = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y[i]
+            = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;N; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(x[i]
+            == y[i])</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z[j]
+            = x[i];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j++;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Elements
+            of array x: &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;displayArray(x);</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Elements
+            of array y: &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;displayArray(y);</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Elements
+            of array z: &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;displayArray(z);</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void displayArray(int
+            a[])</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;a.length; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(a[i]
+            + &quot; &nbsp;&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 5&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">public class A {</span></p>
+    <p class="c0"><span class="c1">&nbsp; public static void main(String []args) {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; int i,j,temp,n;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; n = 15;</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; int AR[] = new int[n];</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; System.out.println(&quot;Enter &quot; + n + &quot; numbers:
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; for (i = 0; i &lt;n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; AR[i] = sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; for (i = 0; i &lt; ( n - 1 ); i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; for (j = 0; j &lt; n - i - 1; j++) </span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if (AR[j] &gt; AR[j+1]) //swap the elements if first one
+            is greater than second</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;temp = AR[j];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AR[j] = AR[j+1];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;AR[j+1] = temp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; System.out.println(&quot;******Sorted list******&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; for (i = 0; i &lt; n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; System.out.print(AR[i] + &quot; &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; }</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 6&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">public class A {</span></p>
+    <p class="c0"><span class="c1">&nbsp; public static void main(String []numgs) </span></p>
+    <p class="c0"><span class="c1">&nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; int i,j,temp,n;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; n = 15;</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; int num[] = new int[n];</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; System.out.println(&quot;Enter &quot; + n + &quot; numbers:
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; for (i = 0; i &lt;n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; num[i] = sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; for (i = 0; i &lt; ( n - 1 ); i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; for (j = 0; j &lt; n - i - 1; j++) </span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if (num[j] &gt; num[j+1]) //swap the elements if first
+            one is greater than second</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;temp = num[j];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;num[j] = num[j+1];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;num[j+1] = temp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; System.out.println(&quot;******Sorted list******&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; for (i = 0; i &lt; n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; System.out.print(num[i] + &quot; &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; </span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//start the process of
+            searching</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Enter number
+            to search&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int val = sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int start=0, end=n-1,mid=0,
+            found=0;</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;while(start &lt;= end)</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mid
+            = (start+end)/2;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num[mid]
+            == val)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;found=1;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else
+            if(val &gt; num[mid])</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start
+            = mid+1;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end
+            = mid-1;</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(found == 1)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(val
+            + &quot; found at index : &quot; + mid);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(val
+            + &quot; not found&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; }</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 7&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.*;</span></p>
+    <p class="c0"><span class="c1">class A </span></p>
+    <p class="c0"><span class="c1">{ &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; public static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; float A[] = new float[20];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Enter 20
+            elements&quot;);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;A.length; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A[i] = sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Before
+            Sorting : &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; A.length; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(A[i] + &quot; &nbsp;
+            &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; A.length - 1; i++) &nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int index = i; </span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for (int j = i + 1; j &lt; A.length;
+            j++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (A[j] &gt;
+            A[index])</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; index =
+            j;//searching for lowest index &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; float smallerNumber = A[index]; &nbsp;
+        </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A[index] = A[i]; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A[i] = smallerNumber; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Sorted array : &quot;);</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; A.length; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(A[i] + &quot; &nbsp;
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; </span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 8&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0"><span class="c1">class A</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int M=10, N=5;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int a[] = new int[M];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int b[] = new int[N];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Enter &quot; + M + &quot;
+            Numbers for automorphic&quot;) ;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;a.length; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a[i] = sc.nextInt();</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Enter &quot; + N + &quot;
+            Numbers for palindrome&quot;) ;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;b.length; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b[i] = sc.nextInt();</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; printNumbers(a,b);</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; static void printNumbers(int Y[], int Z[])</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int sizeY = Y.length;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int sizeZ = Z.length;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;The automorphic numbers are:
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;sizeY; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int num = Y[i];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(automorphic(num))</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(num + &quot;
+            &nbsp;&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;\nThe palindrome numbers are:
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;sizeZ; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int num = Z[i];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(palindrome(num))</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(num + &quot;
+            &nbsp;&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; static boolean automorphic(int num)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int count=0, sqr = num*num;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int temp =num; &nbsp;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; //count digit of number </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; while(temp&gt;0){</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; count++;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; temp=temp/10;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; //taking last count digit of sqr of num</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int lastSquareDigits = (int)
+            (sqr%(Math.pow(10,count)));</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if(num == lastSquareDigits)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return true;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; else</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return false;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; static boolean palindrome(int n)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int r,sum=0,temp; &nbsp; &nbsp;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; temp=n; &nbsp; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; while(n&gt;0)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; { &nbsp; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; r=n%10; &nbsp;//getting remainder
+            &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sum=(sum*10)+r; &nbsp; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; n=n/10; &nbsp;//eliminating rightmost
+            digit</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; } &nbsp; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if(temp==sum) &nbsp; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return true; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; else &nbsp; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return false;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 9&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class b </span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; static void main() </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int temp,n;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; n = 30;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int num[] = new int[n];</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;\nEnter weight of &quot; + n +
+            &quot; people: &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt;n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; num[i] = sc.nextInt();</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Before Sorting&quot;);</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(num[i] + &quot;
+            &quot;);</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; ( n - 1 ); i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for (int j = 0; j &lt; n - i - 1; j++)
+        </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (num[j] &lt; num[j+1])
+            //swap the elements if first one is greater than second</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; temp =
+            num[j];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; num[j] =
+            num[j+1];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; num[j+1] =
+            temp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;\n\n******Sorted
+            list******&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; n; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(num[i] + &quot;
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 10&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0"><span class="c1">class A</span></p>
+    <p class="c0"><span class="c1">{ &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; public static void binarySearch()</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int arr[] =
+            {3,5,8,10,13,-14,17,-20,22,-35,52,76,80};</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int first = 0, last=arr.length-1, found=0, n =
+            arr.length;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; ( n - 1 ); i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for (int j = 0; j &lt; n - i - 1; j++)
+        </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (arr[j] &gt; arr[j+1])
+        </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int temp =
+            arr[j];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; arr[j] =
+            arr[j+1];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; arr[j+1] =
+            temp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;\nEnter value to
+            search&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int num = sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int mid = (first + last)/2; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; while( first &lt;= last )</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(arr[mid] == num)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; found=1; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else if ( arr[mid] &lt; num )</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; first = mid + 1; &nbsp;
+            &nbsp; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; last = mid - 1; &nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mid = (first + last)/2; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; if ( found == 1 ) &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Element found at
+            index &quot; + mid); &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; else</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Search
+            Unssuccessful!&quot;); &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; } &nbsp; </span></p>
+    <p class="c0"><span class="c1">} &nbsp;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 11&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class b</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            A[] = {2000, 1998, 1996, 2010, 1984, 2012, 2011, 1992, 2013, 1999, 2018, 2016}; </span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Before
+            Sorting : &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; A.length; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(A[i] + &quot; &nbsp;
+            &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; A.length - 1; i++) &nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int index = i; </span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for (int j = i + 1; j &lt; A.length;
+            j++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (A[j] &gt;
+            A[index])</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; { &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; index = j;
+        </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int smallerNumber = A[index]; &nbsp;
+        </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A[index] = A[i]; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A[i] = smallerNumber; &nbsp;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; } &nbsp;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Sorted array : &quot;);</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; A.length; i++) </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(A[i] + &quot; &nbsp;
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 12&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class a</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            arr[][] = {{4,3,2}, {1,-5,6}, {7,-8,9}};</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            pro=1, sum=0;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;3; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            j=0; j&lt;3; j++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(arr[i]
+            + &quot;\t&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            num = arr[i][j];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num
+            % 2 == 0)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pro
+            = pro * num;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum
+            = sum + num;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println();</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;\nSum
+            of odd numbers: &quot; + sum);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;\Product
+            of even numbers: &quot; + pro);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 13&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class a</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            arr[][] = {{4,3,2}, {1,-5,6}, {7,-8,9}};</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            pro=1, sum=0;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;3; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            j=0; j&lt;3; j++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(arr[i]
+            + &quot;\t&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            num = arr[i][j];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(i
+            ==
+            j)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum
+            = sum + num;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println();</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;\nSum
+            of left diagonal: &quot; + sum);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 14&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0"><span class="c1">class a</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scanner
+            sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Enter
+            value of M&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            M = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            arr[][] = new int[M][M]</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            pro=1, sum=0;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Enter
+            the elements &quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;M; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            j=0; j&lt;M; j++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;arr[i][j]
+            = sc.nextInt();</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            num = arr[i][j];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(i+j
+            == 2)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(num
+            % 2 == 0)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum
+            = sum + num;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;M; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            j=0; j&lt;M; j++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.print(arr[i][j]
+            + &quot;\t&quot;);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println();</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;\nSum
+            of right diagonal: &quot; + sum);</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 15&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">class a</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            arr[][] = {{3,4,5,6}, {1,2,7,9}, {4,5,6,8}};</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            pro=1, sum=0;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            i=0; i&lt;3; i++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for(int
+            j=0; j&lt;4; j++)</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+            num = arr[i][j];</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum
+            = sum + num;</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println(&quot;Sum
+            of row &quot; + i &nbsp;+ &quot;: &quot; + sum);</span></p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum=0;</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span>
+    </p>
+    <p class="c0"><span
+            class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <p class="c0"><span class="c1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <hr>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&mdash;Question 16&mdash;</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">import java.util.Scanner;</span></p>
+    <p class="c0"><span class="c1">class aaa</span></p>
+    <p class="c0"><span class="c1">{</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; static void main()</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Enter value of R and
+            C&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int R = sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int C = sc.nextInt();</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int arr[][] = new int[R][C];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; int &nbsp;sum=0;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Enter the elements
+            &quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;R; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for(int j=0; j&lt;C; j++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; arr[i][j] =
+            sc.nextInt();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; //print the array</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;R; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for(int j=0; j&lt;C; j++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.print(arr[i][j] +
+            &quot;\t&quot;);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; System.out.println();</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; //calculate column sum</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; for(int i=0; i&lt;R; i++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; for(int j=0; j&lt;C; j++)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(j &lt; R)</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int num =
+            arr[j][i];</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sum = sum +
+            num;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Sum of column
+            &quot; + i &nbsp;+ &quot;: &quot; + sum);</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sum=0;</span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; }</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; }</span></p>
+    <p class="c0"><span class="c1">}</span></p>
+    <p class="c0 c2"><span class="c1"></span></p>
 </body>
 
 </html>
