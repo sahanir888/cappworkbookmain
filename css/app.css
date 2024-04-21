@@ -31,6 +31,29 @@
     color: black;
 }
 
+.div1 {
+    display: flex;
+    align-items: center;
+}
+
+.div1 p {
+    margin: 0;
+}
+
+.YouTube_parent {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.YouTube_child {
+    width: 4%; /* 50% width of the parent */
+    height: 4%; /* 50% height of the parent */
+    padding-top: 0px;
+    padding-top: -25px;
+   
+}
+
 #a0 {
     animation: blinkingBackground5 2s infinite;
     margin-right:2px;
