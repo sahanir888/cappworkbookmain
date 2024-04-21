@@ -4,94 +4,99 @@
  * Copyright 2021 AdminKit
  * Licensed under MIT (https://github.com/adminkit/adminkit/blob/master/LICENSE)
  */
- .note_main
- {
-     text-align: center;
- }
- .note
- {
+.note_main {
+    /*text-align: center;*/
+}
+
+.note {
     color: blue;
     font-size: 30;
-     
- }
- .content p{
-     margin-top: 30px;
- }
- .content a{
-     border: 2px solid black;
-     font-weight: bold;
-     font-size: 20px;
-     color: #0b0b0b;
-     padding: 10px 10px;
-     text-decoration: none;
- }
- .content a:hover{
-     color: black;
- }
 
- #a0
- {
+}
+
+.content p {
+    margin-top: 30px;
+}
+
+.content a {
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0b0b0b;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: black;
+}
+
+#a0 {
     animation: blinkingBackground5 2s infinite;
-     
-     
-	}
-	@keyframes blinkingBackground5{
-		
-		50%		{ 
-                    background-color: #8c73fb; 
-                    border: 2px solid #8c73fb;
-                    color:white;
-                    
-                }
-	}
+    margin-right:2px;
 
- #a1{
-     
-     animation: blinkingBackground4 2s infinite;
-     
-     
-	}
-	@keyframes blinkingBackground4{
-		
-		50%		{ 
-                    background-color: #73fba7; 
-                    border: 2px solid #73fba7;
-                    
-                }
-	}
+}
+
+@keyframes blinkingBackground5 {
+
+    50% {
+        background-color: #8c73fb;
+        border: 2px solid #8c73fb;
+        color: white;
+
+    }
+}
+
+#a1 {
+
+    animation: blinkingBackground4 2s infinite;
 
 
-#a2{
-    
+}
+
+@keyframes blinkingBackground4 {
+
+    50% {
+        background-color: #73fba7;
+        border: 2px solid #73fba7;
+
+    }
+}
+
+
+#a2 {
+
     animation: blinkingBackground3 2s infinite;
-    
-    
-    }
-    @keyframes blinkingBackground3{
-        
-        50%		{ 
-                    background-color: #fb737c; 
-                    border: 2px solid #fb737c;
-                    
-                }
-    }
 
-#a3{
+
+}
+
+@keyframes blinkingBackground3 {
+
+    50% {
+        background-color: #fb737c;
+        border: 2px solid #fb737c;
+
+    }
+}
+
+#a3 {
 
     animation: blinkingBackground2 2s infinite;
-    
-    
+
+
+}
+
+@keyframes blinkingBackground2 {
+
+    50% {
+        background-color: #e0ff7b;
+        border: 2px solid #e0ff7b;
+
     }
-    @keyframes blinkingBackground2{
-        
-        50%		{ 
-                    background-color: #e0ff7b; 
-                    border: 2px solid #e0ff7b;
-                    
-                }
-    }
- 
- 
+}
+
+
 :root {
     --bs-blue: #3b7ddd;
     --bs-indigo: #0a0a0a;
