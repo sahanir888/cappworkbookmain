@@ -31,11 +31,11 @@
 
  #a0
  {
-    animation: blinkingBackground 2s infinite;
+    animation: blinkingBackground5 2s infinite;
      
      
 	}
-	@keyframes blinkingBackground{
+	@keyframes blinkingBackground5{
 		
 		50%		{ 
                     background-color: #8c73fb; 
@@ -44,29 +44,29 @@
                 }
 	}
 
- }
  #a1{
      
-     animation: blinkingBackground 2s infinite;
+     animation: blinkingBackground4 2s infinite;
      
      
 	}
-	@keyframes blinkingBackground{
+	@keyframes blinkingBackground4{
 		
 		50%		{ 
-                    background-color: #fb737c; 
-                    border: 2px solid #fb737c;
+                    background-color: #73fba7; 
+                    border: 2px solid #73fba7;
                     
                 }
 	}
 
+
 #a2{
     
-    animation: blinkingBackground 2s infinite;
+    animation: blinkingBackground3 2s infinite;
     
     
     }
-    @keyframes blinkingBackground{
+    @keyframes blinkingBackground3{
         
         50%		{ 
                     background-color: #fb737c; 
