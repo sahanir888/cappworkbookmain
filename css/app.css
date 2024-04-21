@@ -28,6 +28,23 @@
  .content a:hover{
      color: black;
  }
+
+ #a0
+ {
+    animation: blinkingBackground 2s infinite;
+     
+     
+	}
+	@keyframes blinkingBackground{
+		
+		50%		{ 
+                    background-color: #8c73fb; 
+                    border: 2px solid #8c73fb;
+                    
+                }
+	}
+
+ }
  #a1{
      
      animation: blinkingBackground 2s infinite;
